@@ -1,0 +1,164 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+body {
+    background: linear-gradient(113.49deg, #984D38 -30.3%, #181E41 58.12%);
+    min-height: 100vh;
+}
+
+
+header {
+    padding: 30px 0;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+}
+
+header div {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+header .div {
+    display: flex;
+    position: relative;
+}
+
+header .div #i {
+    position: absolute;
+    left: 30px;
+    color: #FFFFFF;
+}
+
+header div h1 {
+    color: #6C5DD3;
+    font-family: Roboto;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 36px;
+    line-height: 100%;
+    letter-spacing: 0%;
+}
+
+header input {
+    border: 0.5px solid #FFFFFF80;
+    background-color: inherit;
+    width: 358px;
+    height: 48px;
+    opacity: 1;
+    border-radius: 40px;
+}
+header p{
+    color: #FFFFFF;
+    font-size: 18px;
+}
+header select{
+    background-color: inherit;
+    color: white;
+    border: none;
+    font-size: 18px;
+}
+.h-left i{
+   color: #FFFFFF;
+   font-size: 19px;
+}
+.h-left button{
+    color: #FFFFFF;
+    border: 0.5px solid #FFFFFF;
+    background-color: inherit;
+    padding: 9px 28px;
+}
+
+
+main{
+    margin-left: 420px;
+}
+.mainTop{
+    display: flex;
+    align-items: center;
+    gap: 600px;
+}
+.mainTop p{
+    color: #FFFFFFCC;
+    font-size: 17px;
+}
+.mainTop select{
+    border: 0.5px solid #FFFFFF;
+    padding: 8px 38px;
+    text-align: center;
+    background-color: inherit;
+    color: #FFFFFF;
+    font-size: 17px;
+    border-radius: 25px;
+}
+.mainTop div{
+    display: flex;
+    gap: 12px;
+}
+
+.cards{
+    padding-top: 30px;
+}
+.card img{
+    width: 246px;
+    height: 277px;
+}
+.card{
+    width: 284px;
+    height: 490px;
+    box-shadow: 0px 3.65px 2.92px 0px #8c8b8b40;
+    padding: 19px;
+    background-color: #181E41;
+    padding-bottom: 75px;
+}
+.card div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 0 0;
+}
+.card h3,p{
+    color: #FFFFFF80;
+}
+.card h2{
+    color: #FFFFFF;
+}
+.card i{
+    color: #FF2525;
+    font-size: 17px;
+}
+.card button{
+    width: 212px;
+    height: 36px;
+    background: linear-gradient(214.02deg, #B75CFF 6.04%, #671AE4 92.95%);
+    color: white;
+    border: none;
+}
+
+.cards{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 25px;
+    flex-wrap: wrap;
+
+}
+
+
+.div input{
+    text-align: center;
+    color: white;
+    font-size: large;
+}
+
